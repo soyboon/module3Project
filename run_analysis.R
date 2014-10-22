@@ -56,7 +56,8 @@ result_mean <- data.table(result)
 result_mean <- result_mean[, lapply(.SD,mean), by=c("subject", "activity")]
 
 ## Rename columns to add a prefix "avg" 
-## setnames(result_mean, unlist(lapply("avg", paste, colnames(result_mean), sep = "-")))
+setnames(result_mean, unlist(lapply("avg", paste, colnames(result_mean), sep = "-")))
+setnames(result_mean, c("avg-subject", "avg-activity"), c("subject", "activity"))
 
 ## Write data to file
 ## CSV: write.csv(result_mean, file="avg_data.csv")
