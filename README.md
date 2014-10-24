@@ -25,5 +25,3 @@ The run_analysis.R code process the data in the following sequence
 9. Remove unwanted columns - leave only those with "mean" or "std"
 10. Create a new data table from the result data frame and calculate the mean for each measurement grouped by subject and activity
 11. Write data to file "avg.txt"
-
-
