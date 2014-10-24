@@ -5,9 +5,10 @@ Getting and Cleaning Data Project Code
 
 
 IMPORTANT NOTES:
-Please note the following 2 points, otherwise the code will fail:
+Please note the following 3 points, otherwise the code will fail:
 1. All data files and R code must be kept in the same working directory
 2. You need to modify the working directory string to point to the actual directory you're using
+3. You have read and understood the README.txt, features_info.txt files that came with the data
 
 
 ================
